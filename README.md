@@ -5,7 +5,7 @@ This project uses MediaPipe's human pose estimation to automatically detect and 
 ## How It Works
 
 1. **Frame Extraction**  
-   Extracts frames from a basketball video (e.g., `NBA_2K_Gameplay.mp4` or highlight clips).
+   Extracts frames from a basketball video (e.g., `NBA_Gameplay.mp4` or highlight clips).
 
 2. **Pose Estimation**  
    Uses MediaPipe Pose to detect 33 body landmarks (e.g., wrist, shoulder, chest) per frame.
@@ -25,13 +25,21 @@ Traditional stat tracking requires manual annotation or ball tracking. Instead, 
 
 ## File Structure
 StatTracker/
+
 ├── videos/
+
 │ └── * Your inputed video here.mp4
+
 ├── frames/
+
 │ └── frame_*.jpg
+
 ├── output/
+
 │ └── shot_scatter_plot.png
+
 ├── pose_estimations.py
+
 └── README.md
 
 ## Requirements
@@ -43,7 +51,7 @@ Make sure the following Python packages are installed:
 ## How to Run
 - python pose_estimations.py
 
-
+  
 - This will:
   - Extract frames from `videos/Your video here.mp4`
   - Run pose estimation and detect shots
