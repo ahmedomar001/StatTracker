@@ -28,7 +28,7 @@ StatTracker/
 
 ├── videos/
 
-│ └── * Your inputed video here.mp4
+│ └── * Your video here.mp4
 
 ├── frames/
 
